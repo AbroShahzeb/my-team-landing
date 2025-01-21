@@ -2,8 +2,11 @@ import logo from "../../../assets/logo.svg";
 import iconHamburger from "../../../assets/icon-hamburger.svg";
 import { NavLink } from "react-router-dom";
 import { Button } from "../../../generalComponents";
+import { MobileNav } from "./components";
+import { useState } from "react";
 
 export const Navbar = () => {
+  const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   return (
     <nav className="flex items-center justify-between gap-2 md:gap-12 lg:gap-20 px-6 pt-12 md:px-10 md:pt-16 lg:pt-[73px] xl:max-w-[1110px] xl:px-0 xl:mx-auto">
       {/* Logo */}
@@ -23,9 +26,11 @@ export const Navbar = () => {
         <Button label="contact us" />
       </NavLink>
 
-      <div className="md:hidden">
+      <MobileNav isOpen={isMobileNavOpen} setIsOpen={setIsMobileNavOpen} />
+
+      <button className="md:hidden" onClick={() => setIsMobileNavOpen(true)}>
         <img src={iconHamburger} alt="Hamburger Icon" />
-      </div>
+      </button>
     </nav>
   );
 };
