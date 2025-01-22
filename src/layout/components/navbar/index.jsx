@@ -11,7 +11,7 @@ export const Navbar = () => {
     <nav className="flex items-center justify-between gap-2 md:gap-12 lg:gap-20 px-6 pt-12 md:px-10 md:pt-16 lg:pt-[73px] xl:max-w-[1110px] xl:px-0 xl:mx-auto">
       {/* Logo */}
       <div className="flex-shrink-0">
-        <img src={logo} alt="My team logo" className="h-8" />
+        <img src={logo} alt="My team logo" className="h-8 lg:h-10" />
       </div>
 
       {/* Links */}

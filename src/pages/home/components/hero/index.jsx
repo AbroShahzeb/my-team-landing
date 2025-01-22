@@ -11,7 +11,7 @@ export const Hero = () => {
       </div>
 
       {/* Background Pattern Desktop */}
-      <div className="hidden lg:block absolute left-0 -translate-x-1/2 top-1/2 -translate-y-1/2">
+      <div className="hidden lg:block absolute left-0 -translate-x-1/2 top-1/2 -translate-y-[calc(50%+121px)]">
         <img src={bgPatternHero1} alt="Background Pattern" />
       </div>
 
