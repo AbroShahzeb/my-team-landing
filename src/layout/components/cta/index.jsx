@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { Button } from "../../../generalComponents";
-import patternBackground from "../../../assets/bg-pattern-home-3.svg";
+import patternBackground from "../../../assets/bg-pattern-home-6-about-5.svg";
 
 export const CTA = () => {
   return (
     <section className="bg-primary-light-coral relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute left-0 bottom-0 translate-y-1/2">
+      <div className="absolute left-0 bottom-0">
         <img src={patternBackground} alt="Background Pattern" />
       </div>
 
