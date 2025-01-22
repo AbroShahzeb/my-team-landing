@@ -22,7 +22,7 @@ export const MobileNav = ({ isOpen, setIsOpen }) => {
       {isOpen && (
         <>
           <div
-            className="w-full fixed inset-0 h-svh bg-black/50"
+            className="w-full fixed inset-0 min-h-svh bg-black/50 z-20"
             onClick={() => setIsOpen(false)}
           ></div>
           <motion.div
@@ -31,7 +31,7 @@ export const MobileNav = ({ isOpen, setIsOpen }) => {
             variants={variants}
             exit={"closed"}
             transition={{ duration: 0.2, ease: "easeInOut" }}
-            className="fixed top-0 translate-x-full right-0 bottom-0  h-svh bg-secondary-police-blue z-50"
+            className="fixed top-0 translate-x-full right-0 bottom-0  z-30 min-h-svh bg-secondary-police-blue z-50"
           >
             {/* Background Pattern */}
             <div className="absolute bottom-0 -right-0 translate-x-1/2">
@@ -46,14 +46,22 @@ export const MobileNav = ({ isOpen, setIsOpen }) => {
             </div>
 
             <div className="mt-10 flex flex-col gap-6 text-b1 font-semibold px-12 text-white ">
-              <Link to="/" className="hover:text-primary-light-coral">
+              <Link
+                to="/"
+                className="hover:text-primary-light-coral"
+                onClick={() => setIsOpen(false)}
+              >
                 home
               </Link>
-              <Link to="/about" className="hover:text-primary-light-coral">
+              <Link
+                to="/about"
+                className="hover:text-primary-light-coral"
+                onClick={() => setIsOpen(false)}
+              >
                 about
               </Link>
               <Link className="mt-3" to="/contact">
-                <Button label="contact us" />
+                <Button label="contact us" onClick={() => setIsOpen(false)} />
               </Link>
             </div>
           </motion.div>

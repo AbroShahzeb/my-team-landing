@@ -6,7 +6,7 @@ export const Layout = () => {
     <main className="bg-primary-midnight-green min-h-screen w-full">
       <Navbar />
       <Outlet />
-      <Footer />
+    <Footer />
     </main>
   );
 };
