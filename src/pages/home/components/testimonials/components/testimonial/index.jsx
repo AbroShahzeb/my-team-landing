@@ -10,7 +10,12 @@ export const Testimonial = ({ testimonial }) => {
       <div className="text-b2 font-semibold relative">
         <p>{testimonial.testimonial}</p>
       </div>
-      <div className="flex flex-col gap-4 items-center text-center lg:gap-8">
+      <div
+        className="flex flex-col gap-4 items-center text-center lg:gap-8"
+        style={{
+          gap: testimonial.author === "Arthur Clarke" ? "43px" : "32px",
+        }}
+      >
         <div className="flex flex-col gap-[2px]">
           <h4 className="text-b1 font-bold text-secondary-reptaure-blue">
             {testimonial.author}

@@ -4,7 +4,7 @@ import { TestimonalList } from "./components";
 
 export const Testimonials = () => {
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden bg-secondary-deep-jungle-green">
       {/* Background Pattern 1 */}
       <div className="absolute top-0 left-0 ">
         <img src={patternBackground1} alt="Background Pattern 1" />
@@ -18,7 +18,7 @@ export const Testimonials = () => {
       <div className="px-6 pt-[140px] pb-[164px] md:px-[98px] md:py-[100px] xl:max-w-[1110px] xl:mx-auto xl:px-0 xl:py-[140px] relative z-10 flex flex-col gap-[84px] lg:gap-[92px]">
         {/* Heading */}
         <div>
-          <h2 className="text-[32px] leading-[32px] lg:text-[48px] lg:leading-[48px] font-bold text-primary-white text-center">
+          <h2 className="text-[32px] leading-[32px] lg:text-[48px] lg:leading-[48px] font-bold text-primary-white text-center lg:max-w-[932px] lg:mx-auto">
             Delivering real results for top companies. Some of our{" "}
             <span className="text-secondary-reptaure-blue">
               success stories.
