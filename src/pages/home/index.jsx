@@ -1,15 +1,9 @@
-import { useForm } from "react-hook-form";
-import { Button, CustomInput, CustomTextArea } from "../../generalComponents";
+import { Hero } from "./components";
 
 export const Home = () => {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-
-  const onSubmit = (data) => {
-    console.log(data);
-  };
-  return null;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
