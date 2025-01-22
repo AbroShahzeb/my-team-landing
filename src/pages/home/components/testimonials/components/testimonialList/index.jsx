@@ -25,7 +25,7 @@ const testimonials = [
     testimonial:
       "“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”",
     author: "Arthur Clarke",
-    position: "Co-founder of MyFit",
+    position: "Co-founder of MyPhysio",
     avatar: avatarArthur,
   },
 ];

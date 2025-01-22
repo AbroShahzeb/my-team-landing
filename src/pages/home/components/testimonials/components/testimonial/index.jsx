@@ -28,7 +28,7 @@ export const Testimonial = ({ testimonial }) => {
           <img
             src={testimonial.avatar}
             alt={`${testimonial.author} avatar`}
-            className="size-[62px] rounded-full border-2 border-[#C4FFFE]"
+            className="size-[64px] rounded-full border-2 border-[#C4FFFE]"
           />
         </div>
       </div>
