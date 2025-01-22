@@ -31,7 +31,7 @@ export const FeatureList = () => {
   return (
     <div className="flex flex-col gap-12 md:gap-8">
       {features.map((feature) => (
-        <Feature feature={feature} />
+        <Feature feature={feature} key={feature.id} />
       ))}
     </div>
   );
