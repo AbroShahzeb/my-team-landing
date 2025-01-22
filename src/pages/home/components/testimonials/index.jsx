@@ -15,7 +15,7 @@ export const Testimonials = () => {
         <img src={patternBackground2} alt="Background Pattern 2" />
       </div>
 
-      <div className="px-6 pt-[140px] pb-[164px] md:px-[98px] md:py-[100px] xl:max-w-[1110px] xl:mx-auto xl:px-0 xl:py-[140px] relative z-10 flex flex-col gap-[84px] lg:gap-[56px]">
+      <div className="px-6 pt-[140px] pb-[164px] md:px-[98px] md:py-[100px] xl:max-w-[1110px] xl:mx-auto xl:px-0 xl:py-[140px] relative z-10 flex flex-col gap-[84px] lg:gap-[92px]">
         {/* Heading */}
         <div>
           <h2 className="text-[32px] leading-[32px] lg:text-[48px] lg:leading-[48px] font-bold text-primary-white text-center">
