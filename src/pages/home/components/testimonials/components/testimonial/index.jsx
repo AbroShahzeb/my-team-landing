@@ -3,7 +3,7 @@ import iconQuotes from "../../../../../../assets/icon-quotes.svg";
 export const Testimonial = ({ testimonial }) => {
   return (
     <div className="flex flex-col gap-4 lg:gap-6 text-primary-white text-center items-center relative">
-      <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-[30px]">
+      <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-[34px]">
         <img src={iconQuotes} alt={"Quotes Icon"} />
       </div>
 
