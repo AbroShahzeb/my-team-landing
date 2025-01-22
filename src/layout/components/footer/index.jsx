@@ -16,7 +16,7 @@ export const Footer = () => {
         </div>
 
         {/* Links */}
-        <div className="flex items-center md:items-end lg:items-center justify-center gap-6 font-semibold mt-6 md:col-start-1 md:col-end-2 md:row-start-2 md:row-end-2 md:mt-0 lg:justify-start lg:gap-10">
+        <div className="flex items-center md:items-end lg:items-center justify-center gap-6 font-semibold mt-6 md:col-start-1 md:col-end-2 md:row-start-2 md:row-end-2 md:mt-0 lg:justify-start lg:gap-10 lg:text-b1">
           <Link to="/" className="hover:text-primary-light-coral">
             home
           </Link>
